@@ -10,15 +10,17 @@ Tear is a Rust library that enables you to create your own fantasy console using
 ## Quick Example
 
 ```rust
-use tear::{Tear, Color};
+
+use tear::*;
+
+struct World;
 
 fn main() {
-    // Initialize Tear
-    let mut tear = Tear::new("My Fantasy Console", (640, 480));
+    let world = World {};
 
-    // Main loop
-    while let Some(frame) = tear.next_frame() {
-        // Draw something on the frame
-        frame.render_color(Color::new(255, 0, 0, 255)); // Example: draw a red background
-    }
+    Tear::new(
+        "Tear render",
+        Point::new(300, 300), 
+        Point::new(128, 128)
+    ).build(world);
 }
