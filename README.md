@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="brand/logo.png" width="400" height="400">
+  <img src="brand/logo.png" width="321" height="275,5">
 </p>
 
 # Tear
