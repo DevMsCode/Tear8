@@ -1,0 +1,17 @@
+[package]
+name = "tear"
+version = "0.1.0"
+edition = "2021"
+authors = ["MS-Code <catmh.ms@gmail.com>"]
+description = "A simple library to create fantasy consoles or emulators"
+license = "MIT"
+documentation = "https://docs.rs/nome_del_tuo_pacchetto"
+homepage = "https://github.com/tuo_username/nome_del_tuo_pacchetto"
+repository = "https://github.com/tuo_username/nome_del_tuo_pacchetto"
+
+[dependencies]
+pixels = "0.13.0"
+winit = "0.28"
+winit_input_helper = "0.14"
+console = "0.15.7"
+chrono = "0.4.31"
