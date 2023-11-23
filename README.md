@@ -5,11 +5,6 @@
 # Tear
 Tear is a Rust library that enables you to create your own fantasy console using winit and pixels.
 
-## Features 📝
-- **Customizable Fantasy Console:** Build your game development environment inspired by vintage consoles.
-- **Pixel Graphics:** Use pixels to easily manipulate pixels on the screen.
-- **Easy Integration:** Seamlessly integrate the library into your Rust applications.
-
 ## Quick Example ⚡
 
 ```rust
@@ -28,6 +23,14 @@ fn main() {
 }
 ```
 
+## Features 📝
+- **Customizable Fantasy Console:** Build your game development environment inspired by vintage consoles.
+- **Pixel Graphics:** Use pixels to easily manipulate pixels on the screen.
+- **Easy Integration:** Seamlessly integrate the library into your Rust applications.
+
 ## ATTENTION ⚠
--**Unstable code:** The code cannot be fully optimized
--**Missing functions:** You can draw pixels, rectangles and lines on the screen, but for now you cannot draw images, sounds and music.
+- **Unstable code:** The code cannot be fully optimized.
+- **Missing functions:** You can draw pixels, rectangles and lines on the screen, but for now you cannot draw images, sounds and music.
+
+## API
+- Coming soon...
