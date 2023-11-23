@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="brand/logo.png" width="321" height="275,5">
 </p>
 
