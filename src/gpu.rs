@@ -2,18 +2,6 @@ use std::slice::ChunksMut;
 
 use crate::{logger::Logger, color::Color, geo::*};
 
-pub enum Backend {
-    Primary,
-    Secondary,
-    Vulkan,
-    Metal,
-    OpenGL,
-    DirectX11,
-    DirectX12,
-    WebGPU,
-}
-
-
 pub struct Gpu {
     pub buffer_width: u32,
     pub buffer_height: u32,
