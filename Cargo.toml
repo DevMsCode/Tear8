@@ -1,13 +1,13 @@
 [package]
-name = "tear"
+name = "tear8"
 version = "0.1.0"
 edition = "2021"
 authors = ["MS-Code <catmh.ms@gmail.com>"]
-description = "A simple library to create fantasy consoles or emulators"
+description = "Tear is a Rust library that enables you to create your own fantasy console using winit and pixels."
 license = "MIT"
-documentation = "https://docs.rs/nome_del_tuo_pacchetto"
-homepage = "https://github.com/tuo_username/nome_del_tuo_pacchetto"
-repository = "https://github.com/tuo_username/nome_del_tuo_pacchetto"
+documentation = "https://github.com/DevMsCode/Tear/"
+homepage = "https://github.com/DevMsCode/Tear/"
+repository = "https://github.com/DevMsCode/Tear/"
 
 [dependencies]
 pixels = "0.13.0"
